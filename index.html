@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div>
+                <a href="#">
+                    <img src="kodeinkgp.png" class="image"></a>
+            </div>
+            <div class="navlinks">
+                <div><a href="#weather">Weather</a></div>
+                <div><a href="#about">About</a></div>
+                <div><a href="#footer">Footer</a></div>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="search" align="center">
+        <input type="text" id="city" placeholder="Which city's weather details are you curious about?">
+        <button id="searchBtn">Search</button>
+        <div id="errortext" class="error"></div>
+    </div>
+    <br>
+    <section id="weather">
+        <h2 align="center">Weather Details</h2>
+        <div id="weatherinfo">
+        </div>
+    </section>
+
+    <section id="about" align="center">
+        <h2>About</h2> 
+        <img src="weathericon.png" class="weathericon">
+        <br>
+        <span>This website displays the weather details of the searched city</span>
+        <br>
+        <span>Enter any of the following city names</span>
+        <br>
+            <p><strong>Bengaluru</strong></p>
+            <p><strong>Delhi</strong></p>
+            <p><strong>Hyderabad</strong></p>
+            <p><strong>Kolkata</strong></p>
+            <p><strong>Mumbai</strong></p>
+        <span>It shows the temparature, date, wind speed, conditions, humidity and pressure</span>
+        <br>
+        <a href="https://kodeinkgp.in/">KodeinKGP</a>
+        <br><br>
+    </section>
+
+    <footer id="footer" align="center" >
+        <p>Copyright: KodeinKGP WeatherSite</p>
+        <br>
+        <div clas="link_lists">
+            <div><a href="https://github.com" target="_blank">GitHub</a></div>
+            <div><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></div> 
+            <div><a href="#">Terms and Conditions</a></div>
+            <div><a href="#">Privacy Policy</a></div>
+            <br>
+        </div>
+        <button id="backToTop">Back to Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
